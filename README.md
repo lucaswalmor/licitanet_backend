@@ -9,6 +9,10 @@ php artisan migrate
 php artisan test (para rodar os testes)
 ```
 
+## Referências
+
+> Ref Tests: https://laravel.com/docs/9.x/testing
+
 ## EndPoints
 ```
 GET /products - Lista todos os produtos
