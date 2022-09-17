@@ -3,9 +3,11 @@
 Config .env
 
 php artisan migrate
+
+php artisan test (para rodar os testes)
 ```
 
-## EndPints
+## EndPoints
 ```
 GET /products - Lista todos os produtos
 GET /products/{id} - Busca um produto por id
