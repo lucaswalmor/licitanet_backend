@@ -2,6 +2,8 @@
 ```
 Config .env
 
+composer install
+
 php artisan migrate
 
 php artisan test (para rodar os testes)
