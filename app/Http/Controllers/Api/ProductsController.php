@@ -20,10 +20,9 @@ class ProductsController extends Controller
 
     public function store(Request $request)
     {
-        
         $validator = $request->validate([
             'cod_produto' => 'required|max:255',
-            'nome_produto' => 'required|max:255|unique:products',
+            'nome_produto' => 'required|max:255',
             'valor_produto' => 'required|max:255',
             'estoque_produto' => 'required|max:255',
             'cidade' => 'required|max:255',
