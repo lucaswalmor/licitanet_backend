@@ -13,6 +13,8 @@ php artisan test (para rodar os testes)
 
 > Ref Tests: https://laravel.com/docs/9.x/testing
 
+> Ref Api: https://laravel.com/docs/9.x/controllers#restful-partial-resource-routes
+
 ## EndPoints
 ```
 GET /products - Lista todos os produtos
